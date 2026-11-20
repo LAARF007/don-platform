@@ -1,0 +1,32 @@
+# Fichiers compilés et build Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+*.class
+
+# Variables d'environnement et secrets (TRÈS IMPORTANT)
+.env
+.env.*
+!.env.example
+
+# Configuration de l'IDE (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Fichiers systèmes (Windows / macOS)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs et fichiers temporaires
+*.log
+logs/
+tmp/
+temp/
+
+Docs
